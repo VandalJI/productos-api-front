@@ -2,7 +2,7 @@ services:
   frontend:
     build: .
     ports:
-      - "3000:3000"
+      - "3023:3023"
     environment:
       - NODE_ENV=production
 

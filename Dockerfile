@@ -19,7 +19,8 @@ COPY . .
 # Copia todo el contenido del directorio actual al directorio de trabajo del contenedor.
 
 # Exponer el puerto en el que la aplicación estará disponible
-EXPOSE 3000
+ENV PORT=3023
+EXPOSE 3023
 # Declara el puerto 3000, donde la aplicación escuchará las solicitudes.
 
 # Comando para iniciar la aplicación
